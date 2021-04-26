@@ -1,6 +1,6 @@
-r# main links
+# main links
 main:
   - title: "Resume"
     url: /assets/ERIC_QIAN_CV.pdf
-  #- title: "All Posts"
-  #  url: /year-archive/
+  - title: "All Posts"
+    url: /year-archive/
