@@ -2,7 +2,5 @@
 main:
   - title: "Resume"
     url: /assets/ERIC_QIAN_CV.pdf
-  - title: "About"
-    url: 
-  - title: "Sample Posts"
+  - title: "All Posts"
     url: /year-archive/
