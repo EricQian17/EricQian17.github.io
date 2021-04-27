@@ -125,6 +125,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -226,16 +227,17 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+enabled:
+  - categories
+  - tags
+  - year
+layouts: archive
+category: archive-taxonomy
+tag: archive-taxonomy
+permalinks:
+category: /categories/:name/
+tag: /tags/:name/
 
 
 # HTML Compression
