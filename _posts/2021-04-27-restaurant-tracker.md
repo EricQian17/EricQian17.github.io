@@ -1,5 +1,5 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "Restaurant Searching Application"
 header:
   teaser: "/assets/images/500x300.png"
 categories: 
